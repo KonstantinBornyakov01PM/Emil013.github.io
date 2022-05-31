@@ -3,61 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Оформление вертикального меню</title>
-	<стиль>
- .меню {
-			ширина:200px;
-			предыстория:#369;
+	<style>
+		.menu {
+			width:200px;
+			background:#369;
 		}
 		
- .menu ul {
-			маржа: 3px;
-			отступ: 3px;
-			стиль списка:нет;
+		.menu ul {
+			border-style:solid;
+			border-color: white;
+			
 		}
 		
- .меню li {
-			стиль списка:нет;
-    			дисплей:блок;
-    			высота строки:32px;
-    			высота:32px;
-    			маржа:15px 0;
-    			ширина:190px;
+		.menu li {
+			border-style:solid;
+			border-width: 2px;
+			border-spacing: 35px;
+			background-color: white;
 		}
 		
- .меню li a {
-			дисплей:блок;
-   			высота:33px;
-    			преобразование текста:верхний регистр;
-    			размер шрифта:16px;
-    			вес шрифта:жирный;
-    			высота строки:32px;
-    			отступ:0 0 0 25px;
-    			текстовое оформление:нет;
-    			цвет:#9fb0cc;
-    			предыстория: #fff;
-    			граница:сплошная 1px #006A35;
-    			-moz-border-radius:10px;
-   			-webkit-border-radius:10px;
-    			border-radius:0px;
+		.menu li a {
+			border-spacing: 35px;
+			margin: 10px;
 		}
 		
- .menu li a:наведите курсор {
-			предыстория: #d2d6d2;
-    			цвет:синий;
+		.menu li a:hover {
+			border-color: red;
+			border-style: grey;
 		}
 	</style>
 </head>
-<тело>
-	<nav class="menu">
-		<ul>
-			<li><a href="#">Фильмы</a></li>
-			<li><a href="#">Музыка</a></li>
-			<li><a href="#">Софт</a></li>
-			<li><a href="#">Игры</a></li>
-		</ul>
-	</nav>
-</body>
-</html>
 <body>
 	<nav class="menu">
 		<ul>
